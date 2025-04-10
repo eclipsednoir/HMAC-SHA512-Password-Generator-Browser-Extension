@@ -23,7 +23,6 @@ To install manually:
   - "Load unpacked"
   - Select the directory of the source code
 - Firefox:
-  - `about:debugging` → "Load Temporary Add-on"
   - Download the xpi file from the `firefox/` directory
   - Go to `about:addons`
   - Click on the Gear symbol
