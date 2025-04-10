@@ -1,0 +1,1 @@
+# HMAC-SHA512-Password-Generator-Browser-Extension
