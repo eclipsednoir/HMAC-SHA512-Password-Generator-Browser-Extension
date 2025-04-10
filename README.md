@@ -1,1 +1,1 @@
-# HMAC-SHA512-Password-Generator-Browser-Extension
+# Browser Extension for the HMAC-SHA512 Password Generator
