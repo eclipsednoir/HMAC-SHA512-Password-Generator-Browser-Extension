@@ -1,0 +1,35 @@
+{
+    "manifest_version": 3,
+    "name": "HMAC-SHA512 Password Generator",
+    "version": "1.0",
+    "description": "A simple, offline-compatible browser extension that generates secure, site-specific passwords using HMAC-SHA512.",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "images/icon-48.png"
+    },
+    "icons": {
+      "16": "images/icon-16.png",
+      "48": "images/icon-48.png",
+      "128": "images/icon-128.png"
+    },
+    "permissions": ["scripting", "activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["detector.js"],
+        "run_at": "document_idle"
+      }
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": [
+          "popup.html",
+          "js/script.js",
+          "css/styles.css",
+          "js/crypto-js/*.js",
+          "images/icon.svg"
+        ],
+        "matches": ["<all_urls>"]
+      }
+    ]
+  }  
