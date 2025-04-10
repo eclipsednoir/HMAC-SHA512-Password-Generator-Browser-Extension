@@ -31,5 +31,11 @@
         ],
         "matches": ["<all_urls>"]
       }
-    ]
+    ],
+    "applications": {
+      "gecko": {
+        "id": "hmacgen@eclipsednoir.dev",
+        "strict_min_version": "109.0"
+      }
+    }
   }  
