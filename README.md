@@ -29,7 +29,7 @@ To install manually:
   - "Install Add-on From File..."
   - Select the xpi file and install the Add-on
 
-> Note: The `.xpi` file is signed and verified by Mozilla. No warnings, no unsigned-install hassle.
+> Note: The `.xpi` file is signed and verified by Mozilla.
 
 ## Why a Browser Extension?
 
