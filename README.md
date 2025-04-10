@@ -12,12 +12,23 @@ Generates consistent, high-entropy passwords using HMAC-SHA512 — all offline, 
 
 ## Install
 
-- Chrome Web Store: _coming soon (maybe)_
-- Firefox Web Store: _coming soon (maybe)_
+- Chrome Web Store: _maybe, but registering costs $5 and I'm broke_
+- Firefox Web Store: _maybe in the future_
 
 To install manually:
-- Chrome: `chrome://extensions` → "Load unpacked"
-- Firefox: `about:debugging` → "Load Temporary Add-on"
+- Chrome:
+  - Download the source code from GitHub
+  - Go to `chrome://extensions`
+  - Enable "Developer Mode"
+  - "Load unpacked"
+  - Select the directory of the source code
+- Firefox:
+  - `about:debugging` → "Load Temporary Add-on"
+  - Download the xpi file from the `firefox/` directory
+  - Go to `about:addons`
+  - Click on the Gear symbol
+  - "Install Add-on From File..."
+  - Select the xpi file and install the Add-on
 
 ## Why a Browser Extension?
 
