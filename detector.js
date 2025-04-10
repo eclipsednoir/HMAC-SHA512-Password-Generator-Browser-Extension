@@ -66,6 +66,8 @@ document.addEventListener("focusin", (e) => {
       box-shadow: 0 0 10px rgba(0,0,0,0.7);
       border-radius: 8px;
       background: transparent;
+      overflow-y: hidden;
+      overflow-x: hidden;
     `;
   
     document.body.appendChild(iframe);
