@@ -17,17 +17,19 @@ Generates consistent, high-entropy passwords using HMAC-SHA512 — all offline, 
 
 To install manually:
 - Chrome:
-  - Download the source code from GitHub
+  - Download the source code from [GitHub](https://github.com/eclipsednoir/HMAC-SHA512-Password-Generator-Browser-Extension/archive/refs/heads/main.zip)
   - Go to `chrome://extensions`
   - Enable "Developer Mode"
   - "Load unpacked"
   - Select the directory of the source code
 - Firefox:
-  - Download the xpi file from the `firefox/` directory
+  - [Download the singed `xpi` file from the Release tab](https://github.com/eclipsednoir/HMAC-SHA512-Password-Generator-Browser-Extension/releases/download/v1.1.1/HMAC-SHA512-Password-Generator-Browser-Extension.xpi)
   - Go to `about:addons`
   - Click on the Gear symbol
   - "Install Add-on From File..."
   - Select the xpi file and install the Add-on
+
+> Note: The `.xpi` file is signed and verified by Mozilla. No warnings, no unsigned-install hassle.
 
 ## Why a Browser Extension?
 
