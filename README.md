@@ -29,7 +29,7 @@ The standalone version works great as a `.html` file, but the extension:
 ## Original Tool
 
 This extension is based on the original self-contained HTML version:  
-→ [github.com/eclipsednoir/HMAC-SHA512-Password-Generator](https://github.com/eclipsednoir/HMAC-SHA512-Password-Generator)
+[github.com/eclipsednoir/HMAC-SHA512-Password-Generator](https://github.com/eclipsednoir/HMAC-SHA512-Password-Generator)
 
 ## License
 
