@@ -23,7 +23,7 @@ To install manually:
   - "Load unpacked"
   - Select the directory of the source code
 - Firefox:
-  - [Download the singed `xpi` file from the Release tab](https://github.com/eclipsednoir/HMAC-SHA512-Password-Generator-Browser-Extension/releases/download/v1.1.1/HMAC-SHA512-Password-Generator-Browser-Extension.xpi)
+  - [Download the signed `xpi` file from the Release tab](https://github.com/eclipsednoir/HMAC-SHA512-Password-Generator-Browser-Extension/releases/download/v1.1.1/HMAC-SHA512-Password-Generator-Browser-Extension.xpi)
   - Go to `about:addons`
   - Click on the Gear symbol
   - "Install Add-on From File..."
