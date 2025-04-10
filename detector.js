@@ -59,8 +59,8 @@ document.addEventListener("focusin", (e) => {
       position: fixed;
       bottom: 20px;
       right: 20px;
-      width: 360px;
-      height: 520px;
+      width: 350px;
+      height: 600px;
       border: none;
       z-index: 2147483647;
       box-shadow: 0 0 10px rgba(0,0,0,0.7);
